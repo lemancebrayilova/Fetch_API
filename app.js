@@ -1,5 +1,6 @@
-let url = "https://my-json-server.typicode.com/horizon-code-academy/fake-movies-api/movies";
+// let url = "https://my-json-server.typicode.com/horizon-code-academy/fake-movies-api/movies";
 let movies = document.getElementsByClassName('movies')[0];
+let url ='json.json';
 
 fetch(url).then((response) => {
     return response.json();
